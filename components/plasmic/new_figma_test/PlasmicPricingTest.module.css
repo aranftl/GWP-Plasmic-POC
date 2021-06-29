@@ -1,0 +1,129 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  padding-top: 20px;
+  min-width: 0;
+  background: #f5f7f8;
+}
+@media (min-width: 0px) and (max-width: 375px) {
+  .root {
+    align-items: flex-start;
+    padding-left: 40px;
+  }
+}
+.box {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-self: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.box > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.box > :global(.__wab_flex-container) > *,
+.box > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 20px;
+}
+@media (min-width: 0px) and (max-width: 375px) {
+  .box {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 0px) and (max-width: 375px) {
+  .box > :global(.__wab_flex-container) {
+    justify-content: flex-start;
+  }
+}
+.rwPriceCard___0IQdX:global(.__wab_instance) {
+  position: relative;
+}
+.rwPriceCard__txEyy:global(.__wab_instance) {
+  position: relative;
+}
+.rwPriceCard__ykJ02:global(.__wab_instance) {
+  position: relative;
+}
+.rwPriceCard__kQnTa:global(.__wab_instance) {
+  position: relative;
+}
+.controller {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  transition-property: all;
+  transition-duration: 1s;
+  min-width: 0;
+}
+.controller > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  margin-left: calc(0px - 8%);
+  width: calc(100% + 8%);
+}
+.controller > :global(.__wab_flex-container) > *,
+.controller > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8%;
+}
+@media (min-width: 0px) and (max-width: 375px) {
+  .controller {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    z-index: 10000;
+  }
+}
+.left {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 0;
+  align-items: stretch;
+}
+.mobileControlleft:global(.__wab_instance) {
+  position: relative;
+}
+@media (min-width: 0px) and (max-width: 375px) {
+  .mobileControlleft:global(.__wab_instance) {
+    align-self: flex-start;
+    margin-left: -20px;
+    position: absolute;
+    left: auto;
+    top: 0px;
+    z-index: 1001;
+  }
+}
+.right2 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 0;
+  align-items: stretch;
+}
+.right:global(.__wab_instance) {
+  position: relative;
+}
+@media (min-width: 0px) and (max-width: 375px) {
+  .right:global(.__wab_instance) {
+    align-self: flex-end;
+    margin-right: -20px;
+    z-index: 1002;
+  }
+}

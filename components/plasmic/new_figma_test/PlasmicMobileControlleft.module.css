@@ -1,0 +1,46 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.mobileControlLeft {
+  width: 62px;
+  height: 56px;
+  display: block;
+  flex-shrink: 0;
+}
+.rectangle718 {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05),
+    5px 4px 8px 0px rgba(0, 0, 0, 0.25),
+    inset 0px 0px 0px 1px rgba(235, 237, 240, 1);
+  width: 62px;
+  height: 56px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+}
+.root:focus-within .rectangle718 {
+  outline: none;
+  background: #f4f5f8;
+  border: 2px solid currentcolor;
+}
+.root:hover:active .rectangle718 {
+  background: #f4f5f8;
+}
+.svg {
+  position: absolute;
+  object-fit: cover;
+  width: 16px;
+  height: 9px;
+  color: #000;
+  display: block;
+  transform-origin: top left;
+  transform: rotate(90deg);
+  top: 20px;
+  left: 39px;
+}
